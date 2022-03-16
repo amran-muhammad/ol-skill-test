@@ -1,0 +1,9 @@
+How to install this project?
+
+1. CLone the project from git
+2. run the command composer install
+3. create env file, to create run the command cp .env.examle .env
+4. generate a key for the project, to generate key run php artisan key:generate
+5. connect to database properly 
+6. run php artisan migrate
+7. finally run php artisan serve
